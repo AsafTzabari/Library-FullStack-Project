@@ -28,7 +28,7 @@ This is a FullStack web application for managing a library's book inventory. It 
    
 2.**Database Setup:**
 
-      Create a PostgreSQL database and update the .env file with your database credentials.
+         Create a PostgreSQL database and update the .env file with your database credentials.
    
 
 3. **Install Dependencies:**
