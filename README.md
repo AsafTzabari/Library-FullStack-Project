@@ -21,6 +21,7 @@ This is a FullStack web application for managing a library's book inventory. It 
 
 ## Setup
 <div>
+   
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/AsafTzabari/Library-FullStack-Project.git
