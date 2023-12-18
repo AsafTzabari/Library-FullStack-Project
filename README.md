@@ -23,21 +23,21 @@ This is a FullStack web application for managing a library's book inventory. It 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Library-FullStack-Project.git
+   git clone https://github.com/AsafTzabari/Library-FullStack-Project.git
 
    
 2.**Database Setup:**
-   ```
-   Create a PostgreSQL database and update the .env file with your database credentials.
-   ```
 
-2. **Install Dependencies:**
+   Create a PostgreSQL database and update the .env file with your database credentials.
+   
+
+3. **Install Dependencies:**
    ```
    cd //Your current path 
    npm install
    ```
 
-3. **Run the Application:**
+4. **Run the Application:**
    ```
    node index.js
    ```
@@ -52,6 +52,9 @@ Run the Application:
   <img src='https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white' alt='Express'/>
   <img src='https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white' alt='PostgreSQL'/>
   <img src='https://img.shields.io/badge/EJS-FFD700?style=for-the-badge&logo=ejs&logoColor=white' alt='EJS'/>
+   <img src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E' alt='JavaScript'/>
+  <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='CSS3'/>
+  <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' alt='HTML5'/>
 </div>
 
 ## Dependencies
