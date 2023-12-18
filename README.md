@@ -20,7 +20,6 @@ This is a FullStack web application for managing a library's book inventory. It 
    - Remove books from the library inventory.
 
 ## Setup
-<div>
    
 1. **Clone the Repository:**
    ```
@@ -42,7 +41,6 @@ This is a FullStack web application for managing a library's book inventory. It 
    ```
    node index.js
    ```
-</div>
 
 
 ## Technology Used
