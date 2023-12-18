@@ -23,13 +23,13 @@ This is a FullStack web application for managing a library's book inventory. It 
 <div>
    
 1. **Clone the Repository:**
-   ```bash
+   ```
    git clone https://github.com/AsafTzabari/Library-FullStack-Project.git
-
+   ```
    
-2.**Database Setup:**
+2. **Database Setup:**
 
-- Create a PostgreSQL database and update the .env file with your database credentials.
+   - Create a PostgreSQL database and update the .env file with your database credentials.
    
 
 3. **Install Dependencies:**
