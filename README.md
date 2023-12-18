@@ -25,3 +25,52 @@ This is a FullStack web application for managing a library's book inventory. It 
    ```bash
    git clone https://github.com/your-username/Library-FullStack-Project.git
 
+   
+2.**Database Setup:**
+   ```
+   Create a PostgreSQL database and update the .env file with your database credentials.
+   ```
+
+2. **Install Dependencies:**
+   ```
+   cd //Your current path 
+   npm install
+   ```
+
+3. **Run the Application:**
+   ```
+   node index.js
+   ```
+
+
+Run the Application:
+
+
+## Technology Used
+<div>
+  <img src='https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white' alt='Node.js'/>
+  <img src='https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white' alt='Express'/>
+  <img src='https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white' alt='PostgreSQL'/>
+  <img src='https://img.shields.io/badge/EJS-FFD700?style=for-the-badge&logo=ejs&logoColor=white' alt='EJS'/>
+</div>
+
+## Dependencies
+Express: Web framework for Node.js
+PostgreSQL: Database for storing book information
+EJS: Embedded JavaScript templating for rendering dynamic content
+Body-parser: Middleware for parsing request bodies
+Screenshots
+
+Add screenshots or images of your application in action (if applicable).
+Contributing
+
+Feel free to contribute to the project by opening issues or creating pull requests.
+
+## Contributing
+
+Feel free to contribute to the project by opening issues or creating pull requests. 
+
+## License
+
+![GitHub](https://img.shields.io/github/license/ItsAlexanderPopov/Simon-game)
+
