@@ -59,10 +59,6 @@ Express: Web framework for Node.js
 PostgreSQL: Database for storing book information
 EJS: Embedded JavaScript templating for rendering dynamic content
 Body-parser: Middleware for parsing request bodies
-Screenshots
-
-Add screenshots or images of your application in action (if applicable).
-Contributing
 
 Feel free to contribute to the project by opening issues or creating pull requests.
 
