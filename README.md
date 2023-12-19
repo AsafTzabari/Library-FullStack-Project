@@ -49,18 +49,17 @@ This is a FullStack web application for managing a library's book inventory. It 
   <img src='https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white' alt='Express'/>
   <img src='https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white' alt='PostgreSQL'/>
   <img src='https://img.shields.io/badge/EJS-FFD700?style=for-the-badge&logo=ejs&logoColor=white' alt='EJS'/>
-   <img src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E' alt='JavaScript'/>
+  <img src='https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E' alt='JavaScript'/>
   <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white' alt='CSS3'/>
   <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white' alt='HTML5'/>
 </div>
 
 ## Dependencies
-Express: Web framework for Node.js
-PostgreSQL: Database for storing book information
-EJS: Embedded JavaScript templating for rendering dynamic content
-Body-parser: Middleware for parsing request bodies
+<strong>Express:</strong> Web framework for Node.js
+<strong>PostgreSQL:</strong> Database for storing book information
+<strong>EJS:</strong> Embedded JavaScript templating for rendering dynamic content
+<strong>Body-parser:</strong> Middleware for parsing request bodies
 
-Feel free to contribute to the project by opening issues or creating pull requests.
 
 ## Contributing
 
