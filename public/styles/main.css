@@ -57,9 +57,7 @@
        text-decoration: none;
 
  }
- #viewBtn,#deleteBtn{
-       margin-left: 5px;
- }
+
 
     button.btn {
        background-color: #6B240C;
@@ -94,9 +92,12 @@
        background-color: #F5CCA0;
     
 }
+.card{
+       height: 500px;
+}
+
 
 footer{
-  
        background-color: #F5CCA0;
 }
 footer > p{

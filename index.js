@@ -55,13 +55,34 @@ app.get("/", async (req, res) => {
 
   app.post("/addBook", async (req, res) => {
     try {
-      const result = await db.query("INSERT INTO book (name, author,summary,isbn) VALUES ($1, $2, $3, $4)", [req.body.bookName, req.body.authorName, req.body.bookSummary, req.body.isbn]);
+      await db.query("INSERT INTO book (name, author,summary,isbn) VALUES ($1, $2, $3, $4)", [req.body.bookName, req.body.authorName, req.body.bookSummary, req.body.isbn]);
       res.redirect("/");
     } catch (err) {
       console.log(err);
     }
-    
+  });
+  app.post("/editBook/:id", async (req, res) => {
+    try {
+      const result = await db.query("SELECT * FROM book WHERE id = $1", [req.params.id]);
+      const book = result.rows[0];
+       res.render("editBook.ejs", {
+       book:book
+      });
+    } catch (err) {
+      console.log(err);
+    }
 
+    });
+
+  app.post("/editBook", async (req, res) => {
+    try {
+      //console.log(req.body.bookId);
+      //console.log(req.body.bookName);
+      await db.query("UPDATE book SET name = $1, author = $2, summary = $3, isbn = $4 WHERE id = $5;", [req.body.bookName, req.body.authorName, req.body.bookSummary, req.body.isbn,req.body.bookId]);
+      res.redirect("/");
+    } catch (err) {
+      console.log(err);
+    }
   });
 
   app.post("/search", async (req, res) => {
