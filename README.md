@@ -55,10 +55,10 @@ This is a FullStack web application for managing a library's book inventory. It 
 </div>
 
 ## Dependencies
-<strong>Express:</strong> Web framework for Node.js
-<strong>PostgreSQL:</strong> Database for storing book information
-<strong>EJS:</strong> Embedded JavaScript templating for rendering dynamic content
-<strong>Body-parser:</strong> Middleware for parsing request bodies
+<p><strong>Express:</strong> Web framework for Node.js</p>
+<p><strong>PostgreSQL:</strong> Database for storing book information</p>
+<p><strong>EJS:</strong> Embedded JavaScript templating for rendering dynamic content</p>
+<p><strong>Body-parser:</strong> Middleware for parsing request bodies</p>
 
 
 ## Contributing
